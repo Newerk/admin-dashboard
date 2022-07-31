@@ -13,7 +13,7 @@
     <div class="wrapper">
         <div class="left">
             <div class="sidebar">
-                <div class="title">Dashboard</div>
+                <h1 id="title"><span>Dashboard</span></h1>
                 <div class="nav">
                     <div id="home">Home</div>
                     <div id="profile">Profile</div>
@@ -33,14 +33,15 @@
         <div class="right">
             <div class="header">
                 <div class="upper-header">
-                    <div id="searchbar">searchbar---------------------------------------------------------------------------------------------------------------------------------------------------</div>
-                    <div id="alert">alert</div>
-                    <div id="pfp">pfp</div>
+                    <img id="mag-glass" src="svg_icons/header/magnify.svg" alt="magnifying glass">
+                    <input type="text" id="searchbar">
+                    <img id="alert" src="svg_icons/bell-outline.svg" alt="bell icon"></img>
+                    <img id="pfp" src="images/6kp.gif" alt="User profile image"></img>
                     <div id="user-name">Morgan Oakley</div>
                 </div>
                 <div class="lower-header">
-                    <div id="big-pfp">big pfp</div>
-                    <div id="welcome-msg">Hi there, Morgan Oakley(@morgan)</div>
+                    <img id="big-pfp" src="images/6kp.gif" alt="Larger version of User profile image "></img>
+                    <div id="welcome-msg">Hi there, <br><span>Morgan Oakley (@morgan)</span></div>
                     <div class="header-buttons">
                         <button>New</button>
                         <button>Upload</button>
@@ -50,18 +51,147 @@
 
             </div>
             <div class="main-content">
-                <div class="projects">
-                    <div id="card1">project1</div>
-                    <div id="card2">project2</div>
-                    <div id="card3">project3</div>
-                    <div id="card4">project4</div>
-                    <div id="card5">project5</div>
-                    <div id="card6">project6</div>
+                <div class="projects-container">
+                    <h2>Projects</h2>
+                    <div class="projects">
+                        <div id="card1">
+                            <h3>Super Cool Project</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quam dolores neque
+                                temporibus aliquam vel a tempora voluptatem consequuntur similique, perferendis quo fuga
+                                quasi delectus magni? Ipsum ipsam sit eum.</p>
+                            <div class="card-icons">
+                                <div></div>
+                                <img src="svg_icons/eye-plus-outline.svg" id="icon1" alt="eye icon"></img>
+                                <img src="svg_icons/star-plus-outline.svg" id="icon2" alt="star icon"></img>
+                                <img src="svg_icons/source-fork.svg" id="icon3" alt="git fork icon"></img>
+                            </div>
+                        </div>
+                        <div id="card2">
+                            <h3>Less Cool Project</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quam dolores neque
+                                temporibus aliquam vel a temporibus aliquam vel a tempora voluptatem consequuntur
+                                similique, perferendis quo fuga
+                                quasi delectus magni? Ipsum tempora voluptatem consequuntur similique, perferendis quo
+                                fuga
+                                quasi delectus magni? Ipsum ipsam sit eum.</p>
+                            <div class="card-icons">
+                                <div></div>
+                                <img src="svg_icons/eye-plus-outline.svg" id="icon1" alt="eye icon"></img>
+                                <img src="svg_icons/star-plus-outline.svg" id="icon2" alt="star icon"></img>
+                                <img src="svg_icons/source-fork.svg" id="icon3" alt="git fork icon"></img>
+                            </div>
+                        </div>
+                        <div id="card3">
+                            <h3>Impossible App</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quam dolores neque
+                                temporibus aliquam vel a tempora voluptatem consequuntur similique, perferendis quo fuga
+                                quasi delectus magni? Ipsum ipsam sit eum.</p>
+                            <div class="card-icons">
+                                <div></div>
+                                <img src="svg_icons/eye-plus-outline.svg" id="icon1" alt="eye icon"></img>
+                                <img src="svg_icons/star-plus-outline.svg" id="icon2" alt="star icon"></img>
+                                <img src="svg_icons/source-fork.svg" id="icon3" alt="git fork icon"></img>
+                            </div>
+                        </div>
+                        <div id="card4">
+                            <h3>Easy Peasy App</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quam dolores neque
+                                temporibus aliquam vel a tempora voluptatem consequuntur similique, perferendis quo fuga
+                                quasi delectus magni? Ipsum ipsam sit eum.</p>
+                            <div class="card-icons">
+                                <div></div>
+                                <img src="svg_icons/eye-plus-outline.svg" id="icon1" alt="eye icon"></img>
+                                <img src="svg_icons/star-plus-outline.svg" id="icon2" alt="star icon"></img>
+                                <img src="svg_icons/source-fork.svg" id="icon3" alt="git fork icon"></img>
+                            </div>
+                        </div>
+                        <div id="card5">
+                            <h3>Ad Blocker</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quam dolores neque
+                                temporibus aliquam vel a tempora voluptatem consequuntur similique, perferendis quo fuga
+                                quasi delectus magni? Ipsum ipsam sit eum.</p>
+                            <div class="card-icons">
+                                <div></div>
+                                <img src="svg_icons/eye-plus-outline.svg" id="icon1" alt="eye icon"></img>
+                                <img src="svg_icons/star-plus-outline.svg" id="icon2" alt="star icon"></img>
+                                <img src="svg_icons/source-fork.svg" id="icon3" alt="git fork icon"></img>
+                            </div>
+                        </div>
+                        <div id="card6">
+                            <h3>Money Maker</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quam dolores neque
+                                temporibus aliquam vel a tempora voluptatem consequuntur similique, perferendis quo fuga
+                                quasi delectus magni? Ipsum ipsam sit eum.</p>
+                            <div class="card-icons">
+                                <div></div>
+                                <img src="svg_icons/eye-plus-outline.svg" id="icon1" alt="eye icon"></img>
+                                <img src="svg_icons/star-plus-outline.svg" id="icon2" alt="star icon"></img>
+                                <img src="svg_icons/source-fork.svg" id="icon3" alt="git fork icon"></img>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="announcements">Announcements</div>
-                <div class="trending">Trending</div>
+
+                <div class="right-content">
+                    <div class="announce-container">
+                        <h2>Announcements</h2>
+                        <div class="announcements">
+                            <div id="a-card1">
+                                <h4>Site Maintenance</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur beatae, cupiditate
+                                    odio ullam quia aliquam soluta delectus dolor a optio amet dolores facilis enim
+                                    velit quo praesentium ea incidunt nemo.</p>
+                            </div>
+                            <div id="a-card2">
+                                <h4>Community Share Day</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur beatae, cupiditate
+                                    odio ullam quia aliquam soluta delectus dolor a optio amet dolores facilis enim
+                                    velit quo praesentium ea incidunt nemo.</p>
+
+                            </div>
+                            <div id="a-card3">
+                                <h4>Update Privacy Policy</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur beatae, cupiditate
+                                    odio ullam quia aliquam soluta delectus dolor a optio amet dolores facilis enim
+                                    velit quo praesentium ea incidunt nemo.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trending-container">
+                        <h2>Trending</h2>
+                        <div class="trending">
+                            <div id="t-card1">
+                                <img src="images/4tyo.gif" alt="">
+                                <div class="at">@tegan</div>
+                                <div class="tag">World Peace Builder</div>
+                            </div>
+                            <div id="t-card2">
+                                <img src="images/5RTD.gif" alt="">
+                                <div class="at">@morgan</div>
+                                <div class="tag">Super Cool Project</div>
+    
+                            </div>
+                            <div id="t-card3">
+                                <img src="images/51LJ.gif" alt="">
+                                <div class="at">@kendall</div>
+                                <div class="tag">Life Changing App</div>
+    
+                            </div>
+                            <div id="t-card4">
+                                <img src="images/Pap.gif" alt="">
+                                <div class="at">@alex</div>
+                                <div class="tag">No Traffic Maker</div>
+    
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 
