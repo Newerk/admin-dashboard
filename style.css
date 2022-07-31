@@ -355,6 +355,9 @@ h2 {
 .projects>[id*="card"]:hover {
     transform: translateY(-2%);
     box-shadow: rgba(82, 82, 82, .2) 8px 8px 13px 0px;
+    border-left: 15px solid #83C5BE;
+
+    
 
 }
 
